@@ -183,7 +183,7 @@ def init_config():
     parser.add_argument("--myNRF", action='store_true', default=False)
 
     #Use only character-based representations
-    parser.add_argument("--only_char", action="store_true", default=False)
+    parser.add_argument("--only_char", action="store_true", default=True)
 
     args = parser.parse_args()
 
