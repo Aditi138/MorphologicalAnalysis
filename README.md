@@ -68,7 +68,8 @@ To train the MDCRF model, where we make independent predictions for each feature
     --lang_codes ../utils/lang_codes_updated.txt \
     --use_langid \
     --use_char_attention \
-    --tot_epochs 100  
+    --tot_epochs 100  \
+    --use_partial
 
 
  Include language codes which are used during training the model in ```--langs ```. 
